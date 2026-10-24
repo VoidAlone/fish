@@ -8,6 +8,9 @@ set -gx EDITOR nvim
 set -gx VISUAL nvim
 set -gx NVIM_APPNAME nvim
 
+# set -gx FZF_DEFAULT_OPTS '--height=40% --layout=reverse --border --bind=alt-j:preview-down,alt-k:preview-up'
+set -gx FZF_DEFAULT_OPTS '--height=60% --layout=reverse --border=rounded --preview-window=right:60%:wrap --bind=alt-j:preview-down,alt-k:preview-up'
+
 # User executables
 fish_add_path -g $HOME/bin
 fish_add_path -g $HOME/.local/bin
@@ -23,6 +26,10 @@ if status is-interactive
     if command -q zoxide
         zoxide init fish | source
     end
+
+	if command -q dotnet
+		complete -f -c dotnet -a "(dotnet complete (commandline -cp))"
+	end
 
     # ─────────────────────────────────────
     # Aliases
