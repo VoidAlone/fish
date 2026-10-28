@@ -7,7 +7,9 @@ SETUVAR _fisher_patrickf1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_f
 SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eilancosman/tide\x40v6\x1epatrickf1/fzf\x2efish
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR _tide_left_items:os\x1epwd\x1egit\x1enewline\x1echaracter
-SETUVAR _tide_prompt_61872:\x1b\x5b30\x3b49m\x1b\x5b97\x3b40m\x20\uf314\x20\x1b\x5b90m\ue0b1\x1b\x5b40m\x20\x40PWD\x40\x20\x1b\x5b90m\ue0b1\x1b\x5b40m\x20\x1b\x5b92m\uf1d3\x20\x1b\x5b37m\x1b\x5b92mmaster\x1b\x5b91m\x1b\x5b92m\x1b\x5b92m\x1b\x5b91m\x1b\x5b93m\x1b\x5b93m\x20\x212\x1b\x5b94m\x20\x1b\x5b30\x3b49m\ue0b0\x1e\x1b\x5b92m\u276e
+SETUVAR _tide_prompt_115939:\x1b\x5b30\x3b49m\x1b\x5b97\x3b40m\x20\uf314\x20\x1b\x5b90m\ue0b1\x1b\x5b40m\x20\x40PWD\x40\x20\x1b\x5b90m\ue0b1\x1b\x5b40m\x20\x1b\x5b92m\uf1d3\x20\x1b\x5b37m\x1b\x5b92mmaster\x1b\x5b91m\x1b\x5b92m\x1b\x5b92m\x1b\x5b91m\x1b\x5b93m\x1b\x5b93m\x20\x211\x1b\x5b94m\x20\x1b\x5b30\x3b49m\ue0b0\x1e\x1b\x5b92m\u276f\x1e\x1b\x5b30\x3b49m\ue0b2\x1b\x5b90\x3b40m\x20\uf252\x204m\x2019s\x20\x1b\x5b30\x3b49m
+SETUVAR _tide_prompt_50143:\x1b\x5b30\x3b49m\x1b\x5b97\x3b40m\x20\uf314\x20\x1b\x5b90m\ue0b1\x1b\x5b40m\x20\x40PWD\x40\x20\x1b\x5b30\x3b49m\ue0b0\x1e\x1b\x5b92m\u276f\x1e\x1b\x5b30\x3b49m\ue0b2\x1b\x5b90\x3b40m\x20\uf252\x201m\x2020s\x20\x1b\x5b30\x3b49m
+SETUVAR _tide_prompt_59339:\x1b\x5b30\x3b49m\x1b\x5b97\x3b40m\x20\uf314\x20\x1b\x5b90m\ue0b1\x1b\x5b40m\x20\x40PWD\x40\x20\x1b\x5b30\x3b49m\ue0b0\x1e\x1b\x5b92m\u276f\x1e\x1b\x5b30\x3b49m\ue0b2\x1b\x5b90\x3b40m\x20\uf252\x209m\x2040s\x20\x1b\x5b30\x3b49m
 SETUVAR _tide_right_items:status\x1ecmd_duration\x1econtext\x1ejobs\x1enode\x1epython\x1erustc\x1ejava\x1eruby\x1ego\x1edistrobox
 SETUVAR fzf_fd_opts:\x2d\x2dhidden\x1e\x2d\x2dexclude\x1e\x2egit
 SETUVAR tide_aws_bg_color:black
@@ -19,7 +21,7 @@ SETUVAR tide_bun_icon:\U000f0cd3
 SETUVAR tide_character_color:brgreen
 SETUVAR tide_character_color_failure:brred
 SETUVAR tide_character_icon:\u276f
-SETUVAR tide_character_vi_icon_default:\u276e
+SETUVAR tide_character_vi_icon_default:\u276f
 SETUVAR tide_character_vi_icon_replace:\u25b6
 SETUVAR tide_character_vi_icon_visual:V
 SETUVAR tide_cmd_duration_bg_color:black

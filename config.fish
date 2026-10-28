@@ -22,13 +22,16 @@ fish_add_path -g $HOME/.opencode/bin
 
 if status is-interactive
 
-    # Navigation
+	set -U tide_character_vi_icon_default '❯'
+	# Navigation
     if command -q zoxide
         zoxide init fish | source
     end
 
 	if command -q dotnet
-		complete -f -c dotnet -a "(dotnet complete (commandline -cp))"
+		# Allow filesystem completion for dotnet
+		complete -c dotnet -F
+		# complete -f -c dotnet -a "(dotnet complete (commandline -cp))"
 	end
 
     # ─────────────────────────────────────
